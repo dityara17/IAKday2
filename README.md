@@ -1,2 +1,2 @@
 # IAKday2
-IAK DAY 2 for layout 
+IAK DAY 2 | Big thanks for all 
