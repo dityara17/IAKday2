@@ -4,22 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#f79437"
+    android:padding="20dp"
     android:orientation="vertical"
     tools:context="com.dityaranote.menumakanan.MainActivity">
 
 
     <TextView
+        android:textColor="#fff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nama"/>
 
     <EditText
         android:id="@+id/edt_name"
+        android:textColor="#f79437"
+        android:background="#fff"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:hint="Input Your Name"/>
 
     <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#fff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Jumlah Order"/>
@@ -37,6 +45,7 @@
         tools:ignore="OnClick" />
     <TextView
         android:id="@+id/tv_qty"
+        android:textColor="#fff"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"/>
@@ -57,6 +66,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="16sp"
+        android:textColor="#fff"
         android:text="Harga"/>
 
     <TextView
@@ -64,6 +74,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
+        android:textColor="#fff"
         android:textSize="16sp"
         android:layout_marginBottom="16dp"/>
 
